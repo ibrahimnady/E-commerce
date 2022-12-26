@@ -11,6 +11,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path='/' element={<><Slider /> <ProductList /></>} />
+        <Route path='E-commerce/' element={<><Slider /> <ProductList /></>} />
         <Route path='product/:productId' element={<ProductDetails />} />
       </Routes>
 
